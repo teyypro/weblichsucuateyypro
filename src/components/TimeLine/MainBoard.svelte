@@ -27,7 +27,7 @@
 
 <script>
   import { onMount } from 'svelte';
-  import { change } from '../../store.js'
+
   let timeline_config = {
     "lang": "vi",
     "height": "600",
@@ -54,7 +54,7 @@
     // Lắng nghe sự kiện click trên timelineContainer
     timelineContainer.addEventListener("click", (event) => {
       if (event.target && event.target.classList.contains("triggerAlbum")) {
-        $change = '1'
+        window.location.href = '/viewsphere'
         console.log("asssssssssssssss")
       }
     });

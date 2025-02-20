@@ -59,13 +59,13 @@
 }
 </style>
 <script>
-    import { change } from '../../store.js'
+ 
 </script>
 
 <div id = 'container'>
     <div id = 'title'>
         Thư Viện Ảnh 3D: Ngoại Giao Việt Nam Thời kì chống Pháp (tạo bởi Nguyễn Văn Tây - 12a1)
-    <button on:click = {()=>{$change = '0'}}><span class="material-symbols-outlined">
+    <button on:click = {()=>{window.location.href = '/'}}><span class="material-symbols-outlined">
         logout
         </span>Thoát</button>
     </div>
