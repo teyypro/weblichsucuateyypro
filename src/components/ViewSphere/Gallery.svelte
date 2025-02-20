@@ -12,19 +12,22 @@
         bottom:0;
     }
     button{
-        width: 7rem;
+        width: fit-content;
     height: 4vh;
-    border-radius: 0.6rem;
+    border-radius: 0.5rem;
     gap: 0.2rem;
     display: flex
 ;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 2vh;
     font-weight: bold;
     background-color: #f07167;
     color: #fff;
     cursor: pointer;
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+    margin-left: 11vh;
     }
     #title{
         position: absolute;
@@ -44,7 +47,7 @@
     z-index: 99;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
-
+    span{    font-size: 3vh;}
     @media (max-width: 1100px) {
         #title{
             font-size:0.7rem;
