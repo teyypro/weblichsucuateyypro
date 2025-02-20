@@ -54,7 +54,7 @@
     // Lắng nghe sự kiện click trên timelineContainer
     timelineContainer.addEventListener("click", (event) => {
       if (event.target && event.target.classList.contains("triggerAlbum")) {
-        window.location.href = '/viewsphere'
+        window.location.href = '/weblichsucuateyypro/viewsphere'
         console.log("asssssssssssssss")
       }
     });
