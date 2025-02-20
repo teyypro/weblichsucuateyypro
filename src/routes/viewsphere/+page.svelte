@@ -3,7 +3,7 @@
         background-color: #ffffff;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     }
     iframe{
         position:absolute;
@@ -69,5 +69,5 @@
         logout
         </span>Thoát</button>
     </div>
-    <iframe src=https://uploads.knightlab.com/scenevr/15896/4482ff53/index.html frameborder="0" allowfullscreen />
+    <iframe src='https://uploads.knightlab.com/scenevr/15896/4482ff53/index.html' frameborder="0" allow="accelerometer; gyroscope;" title = "game"></iframe>
 </div>

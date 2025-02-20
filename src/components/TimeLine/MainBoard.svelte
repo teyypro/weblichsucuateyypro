@@ -53,11 +53,16 @@
 
     // Lắng nghe sự kiện click trên timelineContainer
     timelineContainer.addEventListener("click", (event) => {
-      if (event.target && event.target.classList.contains("triggerAlbum")) {
-        window.location.href = '/weblichsucuateyypro/viewsphere'
-        console.log("asssssssssssssss")
-      }
-    });
+    if (event.target && event.target.classList.contains("triggerAlbum")) {
+        if (window.innerWidth <= 768) { // Kiểm tra nếu là thiết bị di động (dưới 768px)
+            window.location.href = "https://uploads.knightlab.com/scenevr/15896/4482ff53/index.html";
+        } else {
+            window.location.href = "/weblichsucuateyypro/viewsphere";
+        }
+        console.log("Event triggered");
+    }
+});
+
   });
 </script>
 
